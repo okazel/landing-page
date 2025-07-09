@@ -4,12 +4,15 @@ body {
   display: flex;
   justify-content: center;
   align-items: center;
+  box-sizing: border-box;
+  padding: 0;
+  margin: 0;
 }
 
 /* main */
 
 .main {
-  width: 80%;
+  width: 100%;
   text-align: center;
 }
 
@@ -19,10 +22,11 @@ header.navbar {
   display: flex;
   flex-direction: row;
   justify-content: space-around;
+  margin: auto;
 }
 
 .header-title {
-  color: white;
+  color: #f9faf8;
   font-weight: 900;
   font-size: 24px;
 }
@@ -41,6 +45,8 @@ li {
 
 .first-section {
   display: flex;
+  justify-content: space-evenly;
+  margin: 60px 0 120px 0;
 }
 
 h1 {
@@ -51,4 +57,57 @@ h1 {
 
 p {
   color: #9ca1a9;
+}
+
+.left-first-section {
+  text-align: left;
+}
+
+.sign-up-btn {
+  background-color: #3882f6;
+  color: #f9faf8;
+  border: none;
+  padding: 8px 16px;
+  border-radius: 8px;
+}
+
+/* section 2 */
+
+.second-section {
+  background-color: white;
+}
+
+.img-section > p:last-child {
+  margin-bottom: 0;
+}
+
+/* section 3 */
+
+.third-section {
+  background-color: #e5e7eb;
+  margin-top: 0;
+}
+
+blockquote {
+  margin-top: 0;
+  margin-bottom: 0;
+  padding: 60px;
+  color: #203040;
+  font-weight: lighter;
+}
+
+/* section 4 */
+
+.fourth-section {
+  background-color: white;
+}
+
+.banner > h2 {
+  margin-top: 0;
+}
+
+/* footer */
+footer {
+  padding: 24px;
+  color: #f9faf8;
 }
