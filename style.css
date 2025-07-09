@@ -23,6 +23,7 @@ header.navbar {
   flex-direction: row;
   justify-content: space-around;
   margin: auto;
+  padding: 16px;
 }
 
 .header-title {
