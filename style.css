@@ -90,17 +90,32 @@ p {
 }
 
 blockquote {
-  margin-top: 0;
-  margin-bottom: 0;
-  padding: 60px;
-  color: #203040;
+  margin: 0 auto;
+  width: 60%;
+  color: #1f2937;
+  font-size: 36px;
   font-weight: lighter;
+  padding: 100px 0;
+}
+
+cite {
+  font-weight: bold;
 }
 
 /* section 4 */
 
 .fourth-section {
+  padding: 48px;
   background-color: white;
+}
+
+.banner {
+  margin: auto;
+  width: 80%;
+  background-color: #3882f6;
+  padding: 54px;
+  border-radius: 1em;
+  color: #f9faf8;
 }
 
 .banner > h2 {
