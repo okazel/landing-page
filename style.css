@@ -70,6 +70,12 @@ p {
   border: none;
   padding: 8px 16px;
   border-radius: 8px;
+  transition: 0.25s;
+}
+
+.sign-up-btn:hover {
+  background-color: #f9faf8;
+  color: #3882f6;
 }
 
 /* section 2 */
