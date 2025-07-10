@@ -112,14 +112,22 @@ cite {
 .banner {
   margin: auto;
   width: 80%;
+  height: 100px;
   background-color: #3882f6;
   padding: 54px;
   border-radius: 1em;
   color: #f9faf8;
+  display: flex;
+  justify-content: space-around;
 }
 
 .banner > h2 {
   margin-top: 0;
+}
+
+.sign-up-btn.white-border {
+  padding: 0 25px;
+  border: 1px solid white;
 }
 
 /* footer */
