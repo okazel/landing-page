@@ -118,6 +118,7 @@ cite {
   border-radius: 1em;
   color: #f9faf8;
   display: flex;
+  align-items: center;
   justify-content: space-around;
 }
 
@@ -126,8 +127,9 @@ cite {
 }
 
 .sign-up-btn.white-border {
-  padding: 0 25px;
-  border: 1px solid white;
+  border: 2px solid white;
+  /* padding: 0; */
+  flex-grow: 0;
 }
 
 /* footer */
