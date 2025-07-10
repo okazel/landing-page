@@ -22,6 +22,7 @@ header.navbar {
   display: flex;
   flex-direction: row;
   justify-content: space-around;
+  align-items: center;
   margin: auto;
   padding: 16px;
 }
@@ -54,6 +55,8 @@ h1 {
   font-size: 48px;
   color: #f9faf8;
   font-weight: 900;
+  margin-bottom: 0;
+  text-transform: ;
 }
 
 p {
@@ -78,14 +81,48 @@ p {
   color: #3882f6;
 }
 
+/* main img */
+
+.main-img {
+  width: 500px;
+  height: 250px;
+  object-fit: cover;
+  border-radius: 1em;
+}
+
 /* section 2 */
 
 .second-section {
   background-color: white;
+  padding: 24px;
 }
 
 .img-section > p:last-child {
   margin-bottom: 0;
+}
+
+.img-section {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  gap: 100px;
+}
+
+.product-img {
+  width: 200px;
+  height: 300px;
+  border-radius: 1em;
+  border: 2px solid blue;
+  transition: 0.25s ease;
+  object-fit: cover;
+}
+
+.product-img:last-child {
+  object-fit: fill;
+}
+
+.product-img:hover {
+  opacity: 0.5;
 }
 
 /* section 3 */
@@ -102,6 +139,7 @@ blockquote {
   font-size: 36px;
   font-weight: lighter;
   padding: 100px 0;
+  font-style: italic;
 }
 
 cite {
@@ -147,5 +185,13 @@ cite {
 /* footer */
 footer {
   padding: 24px;
+  color: #f9faf8;
+}
+
+.banner-info {
+  text-align: left;
+}
+
+.banner-info > p {
   color: #f9faf8;
 }
